@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'prog2' target in the 'prog2' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
