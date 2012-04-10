@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873B8AEC1533FFA9004582DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873B8AEB1533FFA9004582DA /* Foundation.framework */; };
+		873B8AEF1533FFA9004582DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873B8AEE1533FFA9004582DA /* main.m */; };
+		873B8AF31533FFA9004582DA /* prog4_ex7_rectangle_class.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 873B8AF21533FFA9004582DA /* prog4_ex7_rectangle_class.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		873B8AE51533FFA9004582DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				873B8AF31533FFA9004582DA /* prog4_ex7_rectangle_class.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		873B8AE71533FFA9004582DA /* prog4-ex7 rectangle class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prog4-ex7 rectangle class"; sourceTree = BUILT_PRODUCTS_DIR; };
+		873B8AEB1533FFA9004582DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		873B8AEE1533FFA9004582DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		873B8AF11533FFA9004582DA /* prog4-ex7 rectangle class-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prog4-ex7 rectangle class-Prefix.pch"; sourceTree = "<group>"; };
+		873B8AF21533FFA9004582DA /* prog4_ex7_rectangle_class.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = prog4_ex7_rectangle_class.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873B8AE41533FFA9004582DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEC1533FFA9004582DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873B8ADC1533FFA9004582DA = {
+			isa = PBXGroup;
+			children = (
+				873B8AED1533FFA9004582DA /* prog4-ex7 rectangle class */,
+				873B8AEA1533FFA9004582DA /* Frameworks */,
+				873B8AE81533FFA9004582DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873B8AE81533FFA9004582DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873B8AE71533FFA9004582DA /* prog4-ex7 rectangle class */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873B8AEA1533FFA9004582DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				873B8AEB1533FFA9004582DA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		873B8AED1533FFA9004582DA /* prog4-ex7 rectangle class */ = {
+			isa = PBXGroup;
+			children = (
+				873B8AEE1533FFA9004582DA /* main.m */,
+				873B8AF21533FFA9004582DA /* prog4_ex7_rectangle_class.1 */,
+				873B8AF01533FFA9004582DA /* Supporting Files */,
+			);
+			path = "prog4-ex7 rectangle class";
+			sourceTree = "<group>";
+		};
+		873B8AF01533FFA9004582DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873B8AF11533FFA9004582DA /* prog4-ex7 rectangle class-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873B8AE61533FFA9004582DA /* prog4-ex7 rectangle class */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873B8AF61533FFA9004582DA /* Build configuration list for PBXNativeTarget "prog4-ex7 rectangle class" */;
+			buildPhases = (
+				873B8AE31533FFA9004582DA /* Sources */,
+				873B8AE41533FFA9004582DA /* Frameworks */,
+				873B8AE51533FFA9004582DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prog4-ex7 rectangle class";
+			productName = "prog4-ex7 rectangle class";
+			productReference = 873B8AE71533FFA9004582DA /* prog4-ex7 rectangle class */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873B8ADE1533FFA9004582DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 873B8AE11533FFA9004582DA /* Build configuration list for PBXProject "prog4-ex7 rectangle class" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 873B8ADC1533FFA9004582DA;
+			productRefGroup = 873B8AE81533FFA9004582DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873B8AE61533FFA9004582DA /* prog4-ex7 rectangle class */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873B8AE31533FFA9004582DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEF1533FFA9004582DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		873B8AF41533FFA9004582DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		873B8AF51533FFA9004582DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		873B8AF71533FFA9004582DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog4-ex7 rectangle class/prog4-ex7 rectangle class-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		873B8AF81533FFA9004582DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog4-ex7 rectangle class/prog4-ex7 rectangle class-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873B8AE11533FFA9004582DA /* Build configuration list for PBXProject "prog4-ex7 rectangle class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873B8AF41533FFA9004582DA /* Debug */,
+				873B8AF51533FFA9004582DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873B8AF61533FFA9004582DA /* Build configuration list for PBXNativeTarget "prog4-ex7 rectangle class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873B8AF71533FFA9004582DA /* Debug */,
+				873B8AF81533FFA9004582DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873B8ADE1533FFA9004582DA /* Project object */;
+}
