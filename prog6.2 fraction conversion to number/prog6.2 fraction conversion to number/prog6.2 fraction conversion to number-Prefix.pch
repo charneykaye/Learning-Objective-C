@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'prog6.2 fraction conversion to number' target in the 'prog6.2 fraction conversion to number' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
