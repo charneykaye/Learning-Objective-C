@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'prog7.1 fraction test' target in the 'prog7.1 fraction test' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
