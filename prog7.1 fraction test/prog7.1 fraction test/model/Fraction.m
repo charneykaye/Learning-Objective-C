@@ -10,4 +10,19 @@
 
 @implementation Fraction
 
+@synthesize numerator, denominator;
+
+-(void) print
+{
+    double num = [self convertToNum];
+    NSLog(@"Fraction is %i/%i aka %f",numerator,denominator,num);
+}
+
+-(double) convertToNum
+{
+    if (denominator==0)
+        return NAN;
+    return (double) numerator / denominator;
+}
+
 @end

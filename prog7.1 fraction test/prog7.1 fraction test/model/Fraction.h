@@ -10,4 +10,9 @@
 
 @interface Fraction : NSObject
 
+@property int numerator, denominator;
+
+-(void) print;
+-(double) convertToNum;
+
 @end

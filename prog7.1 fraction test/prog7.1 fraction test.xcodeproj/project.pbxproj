@@ -10,6 +10,7 @@
 		8793E3691535FF5400A48078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8793E3681535FF5400A48078 /* Foundation.framework */; };
 		8793E36C1535FF5400A48078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793E36B1535FF5400A48078 /* main.m */; };
 		8793E3701535FF5400A48078 /* prog7_1_fraction_test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8793E36F1535FF5400A48078 /* prog7_1_fraction_test.1 */; };
+		8793E3781535FF8400A48078 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793E3771535FF8400A48078 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,10 @@
 		8793E3641535FF5400A48078 /* prog7.1 fraction test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prog7.1 fraction test"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8793E3681535FF5400A48078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8793E36B1535FF5400A48078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8793E36E1535FF5400A48078 /* prog7.1 fraction test-Prefix.pch */ = {isa = PBXFileReference; path = "prog7.1 fraction test-Prefix.pch"; sourceTree = "<group>"; };
+		8793E36E1535FF5400A48078 /* prog7.1 fraction test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prog7.1 fraction test-Prefix.pch"; sourceTree = "<group>"; };
 		8793E36F1535FF5400A48078 /* prog7_1_fraction_test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = prog7_1_fraction_test.1; sourceTree = "<group>"; };
+		8793E3761535FF8400A48078 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = model/Fraction.h; sourceTree = "<group>"; };
+		8793E3771535FF8400A48078 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = model/Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				8793E36B1535FF5400A48078 /* main.m */,
+				8793E3761535FF8400A48078 /* Fraction.h */,
+				8793E3771535FF8400A48078 /* Fraction.m */,
 				8793E36F1535FF5400A48078 /* prog7_1_fraction_test.1 */,
 				8793E36D1535FF5400A48078 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8793E36C1535FF5400A48078 /* main.m in Sources */,
+				8793E3781535FF8400A48078 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
