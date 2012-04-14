@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'prog8.6 overriding methods' target in the 'prog8.6 overriding methods' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

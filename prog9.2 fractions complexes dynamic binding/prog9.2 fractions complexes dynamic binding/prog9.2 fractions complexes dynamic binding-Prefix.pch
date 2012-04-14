@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'prog9.2 fractions complexes dynamic binding' target in the 'prog9.2 fractions complexes dynamic binding' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'prog7ex1 fraction complete arithmetic' target in the 'prog7ex1 fraction complete arithmetic' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

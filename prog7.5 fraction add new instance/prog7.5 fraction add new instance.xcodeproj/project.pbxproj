@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8786FBD21537F47000399D22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8786FBD11537F47000399D22 /* Foundation.framework */; };
+		8786FBD51537F47000399D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8786FBD41537F47000399D22 /* main.m */; };
+		8786FBD91537F47000399D22 /* prog7_5_fraction_add_new_instance.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8786FBD81537F47000399D22 /* prog7_5_fraction_add_new_instance.1 */; };
+		8786FBE21537F4EF00399D22 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8786FBE11537F4EF00399D22 /* Fraction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8786FBCB1537F47000399D22 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8786FBD91537F47000399D22 /* prog7_5_fraction_add_new_instance.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8786FBCD1537F47000399D22 /* prog7.5 fraction add new instance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prog7.5 fraction add new instance"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8786FBD11537F47000399D22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8786FBD41537F47000399D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8786FBD71537F47000399D22 /* prog7.5 fraction add new instance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prog7.5 fraction add new instance-Prefix.pch"; sourceTree = "<group>"; };
+		8786FBD81537F47000399D22 /* prog7_5_fraction_add_new_instance.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = prog7_5_fraction_add_new_instance.1; sourceTree = "<group>"; };
+		8786FBE01537F4EF00399D22 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		8786FBE11537F4EF00399D22 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8786FBCA1537F47000399D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8786FBD21537F47000399D22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8786FBC21537F46F00399D22 = {
+			isa = PBXGroup;
+			children = (
+				8786FBD31537F47000399D22 /* prog7.5 fraction add new instance */,
+				8786FBD01537F47000399D22 /* Frameworks */,
+				8786FBCE1537F47000399D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8786FBCE1537F47000399D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8786FBCD1537F47000399D22 /* prog7.5 fraction add new instance */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8786FBD01537F47000399D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8786FBD11537F47000399D22 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8786FBD31537F47000399D22 /* prog7.5 fraction add new instance */ = {
+			isa = PBXGroup;
+			children = (
+				8786FBDF1537F4EF00399D22 /* model */,
+				8786FBD41537F47000399D22 /* main.m */,
+				8786FBD81537F47000399D22 /* prog7_5_fraction_add_new_instance.1 */,
+				8786FBD61537F47000399D22 /* Supporting Files */,
+			);
+			path = "prog7.5 fraction add new instance";
+			sourceTree = "<group>";
+		};
+		8786FBD61537F47000399D22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8786FBD71537F47000399D22 /* prog7.5 fraction add new instance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8786FBDF1537F4EF00399D22 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8786FBE01537F4EF00399D22 /* Fraction.h */,
+				8786FBE11537F4EF00399D22 /* Fraction.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8786FBCC1537F47000399D22 /* prog7.5 fraction add new instance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8786FBDC1537F47000399D22 /* Build configuration list for PBXNativeTarget "prog7.5 fraction add new instance" */;
+			buildPhases = (
+				8786FBC91537F47000399D22 /* Sources */,
+				8786FBCA1537F47000399D22 /* Frameworks */,
+				8786FBCB1537F47000399D22 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prog7.5 fraction add new instance";
+			productName = "prog7.5 fraction add new instance";
+			productReference = 8786FBCD1537F47000399D22 /* prog7.5 fraction add new instance */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8786FBC41537F46F00399D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 8786FBC71537F46F00399D22 /* Build configuration list for PBXProject "prog7.5 fraction add new instance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8786FBC21537F46F00399D22;
+			productRefGroup = 8786FBCE1537F47000399D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8786FBCC1537F47000399D22 /* prog7.5 fraction add new instance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8786FBC91537F47000399D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8786FBD51537F47000399D22 /* main.m in Sources */,
+				8786FBE21537F4EF00399D22 /* Fraction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8786FBDA1537F47000399D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8786FBDB1537F47000399D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8786FBDD1537F47000399D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog7.5 fraction add new instance/prog7.5 fraction add new instance-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8786FBDE1537F47000399D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog7.5 fraction add new instance/prog7.5 fraction add new instance-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8786FBC71537F46F00399D22 /* Build configuration list for PBXProject "prog7.5 fraction add new instance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8786FBDA1537F47000399D22 /* Debug */,
+				8786FBDB1537F47000399D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8786FBDC1537F47000399D22 /* Build configuration list for PBXNativeTarget "prog7.5 fraction add new instance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8786FBDD1537F47000399D22 /* Debug */,
+				8786FBDE1537F47000399D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8786FBC41537F46F00399D22 /* Project object */;
+}

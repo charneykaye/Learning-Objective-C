@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'prog7.5 fraction add new instance' target in the 'prog7.5 fraction add new instance' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
