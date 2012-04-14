@@ -41,7 +41,7 @@ static int count;
 -(Fraction *) add: (Fraction *) f
 {    
     // perform function
-    Fraction *result = [Fraction new];
+    Fraction * result = [Fraction new];
     [result setNumerator: numerator * f.denominator + denominator * f.numerator];
     [result setDenominator: f.denominator * denominator];
     [result reduce];
@@ -59,7 +59,7 @@ static int count;
 -(Fraction *) subtract: (Fraction *) f
 {    
     // perform function
-    Fraction *result = [Fraction new];
+    Fraction * result = [Fraction new];
     [result setNumerator: numerator * f.denominator - denominator * f.numerator];
     [result setDenominator: f.denominator * denominator];
     [result reduce];
@@ -77,7 +77,7 @@ static int count;
 -(Fraction *) multiply: (Fraction *) f
 {    
     // perform function
-    Fraction *result = [Fraction new];
+    Fraction * result = [Fraction new];
     [result setNumerator: numerator * f.numerator];
     [result setDenominator: denominator * f.denominator];
     [result reduce];
@@ -95,9 +95,9 @@ static int count;
 -(Fraction *) divide: (Fraction *) f
 {    
     // perform function
-    Fraction *result = [Fraction new];
-    [result setNumerator: numerator * f.numerator];
-    [result setDenominator: f.numerator * denominator];
+    Fraction * result = [Fraction new];
+    [result setNumerator: numerator * f.denominator];
+    [result setDenominator: denominator * f.numerator];
     [result reduce];
     // print
     [self print];

@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E9A872153A0DD400994FBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E9A871153A0DD400994FBB /* Foundation.framework */; };
+		87E9A875153A0DD400994FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A874153A0DD400994FBB /* main.m */; };
+		87E9A879153A0DD400994FBB /* prog9ex4_fraction_complex_as_id_objects.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87E9A878153A0DD400994FBB /* prog9ex4_fraction_complex_as_id_objects.1 */; };
+		87E9A884153A0E4400994FBB /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A881153A0E4400994FBB /* Complex.m */; };
+		87E9A885153A0E4400994FBB /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E9A883153A0E4400994FBB /* Fraction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87E9A86B153A0DD400994FBB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				87E9A879153A0DD400994FBB /* prog9ex4_fraction_complex_as_id_objects.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87E9A86D153A0DD400994FBB /* prog9ex4 fraction complex as id objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prog9ex4 fraction complex as id objects"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E9A871153A0DD400994FBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87E9A874153A0DD400994FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87E9A877153A0DD400994FBB /* prog9ex4 fraction complex as id objects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prog9ex4 fraction complex as id objects-Prefix.pch"; sourceTree = "<group>"; };
+		87E9A878153A0DD400994FBB /* prog9ex4_fraction_complex_as_id_objects.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = prog9ex4_fraction_complex_as_id_objects.1; sourceTree = "<group>"; };
+		87E9A880153A0E4400994FBB /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		87E9A881153A0E4400994FBB /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		87E9A882153A0E4400994FBB /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		87E9A883153A0E4400994FBB /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E9A86A153A0DD400994FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A872153A0DD400994FBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87E9A862153A0DD400994FBB = {
+			isa = PBXGroup;
+			children = (
+				87E9A873153A0DD400994FBB /* prog9ex4 fraction complex as id objects */,
+				87E9A870153A0DD400994FBB /* Frameworks */,
+				87E9A86E153A0DD400994FBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87E9A86E153A0DD400994FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A86D153A0DD400994FBB /* prog9ex4 fraction complex as id objects */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E9A870153A0DD400994FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A871153A0DD400994FBB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E9A873153A0DD400994FBB /* prog9ex4 fraction complex as id objects */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A87F153A0E4400994FBB /* model */,
+				87E9A874153A0DD400994FBB /* main.m */,
+				87E9A878153A0DD400994FBB /* prog9ex4_fraction_complex_as_id_objects.1 */,
+				87E9A876153A0DD400994FBB /* Supporting Files */,
+			);
+			path = "prog9ex4 fraction complex as id objects";
+			sourceTree = "<group>";
+		};
+		87E9A876153A0DD400994FBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A877153A0DD400994FBB /* prog9ex4 fraction complex as id objects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E9A87F153A0E4400994FBB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				87E9A880153A0E4400994FBB /* Complex.h */,
+				87E9A881153A0E4400994FBB /* Complex.m */,
+				87E9A882153A0E4400994FBB /* Fraction.h */,
+				87E9A883153A0E4400994FBB /* Fraction.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E9A86C153A0DD400994FBB /* prog9ex4 fraction complex as id objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E9A87C153A0DD400994FBB /* Build configuration list for PBXNativeTarget "prog9ex4 fraction complex as id objects" */;
+			buildPhases = (
+				87E9A869153A0DD400994FBB /* Sources */,
+				87E9A86A153A0DD400994FBB /* Frameworks */,
+				87E9A86B153A0DD400994FBB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prog9ex4 fraction complex as id objects";
+			productName = "prog9ex4 fraction complex as id objects";
+			productReference = 87E9A86D153A0DD400994FBB /* prog9ex4 fraction complex as id objects */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E9A864153A0DD400994FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 87E9A867153A0DD400994FBB /* Build configuration list for PBXProject "prog9ex4 fraction complex as id objects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87E9A862153A0DD400994FBB;
+			productRefGroup = 87E9A86E153A0DD400994FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E9A86C153A0DD400994FBB /* prog9ex4 fraction complex as id objects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E9A869153A0DD400994FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E9A875153A0DD400994FBB /* main.m in Sources */,
+				87E9A884153A0E4400994FBB /* Complex.m in Sources */,
+				87E9A885153A0E4400994FBB /* Fraction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87E9A87A153A0DD400994FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		87E9A87B153A0DD400994FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		87E9A87D153A0DD400994FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog9ex4 fraction complex as id objects/prog9ex4 fraction complex as id objects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87E9A87E153A0DD400994FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog9ex4 fraction complex as id objects/prog9ex4 fraction complex as id objects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E9A867153A0DD400994FBB /* Build configuration list for PBXProject "prog9ex4 fraction complex as id objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E9A87A153A0DD400994FBB /* Debug */,
+				87E9A87B153A0DD400994FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E9A87C153A0DD400994FBB /* Build configuration list for PBXNativeTarget "prog9ex4 fraction complex as id objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E9A87D153A0DD400994FBB /* Debug */,
+				87E9A87E153A0DD400994FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87E9A864153A0DD400994FBB /* Project object */;
+}
