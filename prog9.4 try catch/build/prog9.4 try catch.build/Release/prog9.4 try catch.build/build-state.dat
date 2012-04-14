@@ -1,0 +1,123 @@
+Tprog9.4 try catch
+v5
+r1
+cCheck dependencies
+cProcessPCH "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.pth" "prog9.4 try catch/prog9.4 try catch-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.o" "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.o" "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Complex.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F29C61A00000000000000EE
+t1328137754
+s238
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F6C12F500000000000ADFFC
+t1332482805
+s712700
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/prog9.4 try catch
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/prog9.4 try catch.dSYM
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Fraction.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/prog9.4 try catch.LinkFileList
+c000000004F89A8E300000000000001CF
+t1334421731
+s463
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m
+c000000004F89A7F4000000000000019A
+t1334421492
+s410
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Complex.m
+c000000004F880C4D00000000000003AF
+t1334316109
+s943
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Fraction.m
+c000000004F880A630000000000000D57
+t1334315619
+s3415
+
+N/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/prog9.4 try catch-Prefix.pch
+c000000004F89A77500000000000000AF
+t1334421365
+s175
+
+N/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies556c3463e039b541^5b5f8063e039b541^---0#1#0#--18"Check dependencies36"5A38D151-2458-45E7-BA81-4626F45A68CD-
+
+CCompileC "build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.o" "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Complex.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356114533.502428
+e356114533.809877
+r1
+xCompileC
+xbuild/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.o
+x/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Complex.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Complex.md4d68065e039b541^3755cf65e039b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/nickkaye/XCodeProjects/learning-ios/prog9.4%20try%20catch/prog9.4%20try%20catch/model/Complex.m0000000000000000^3364"CompileC "build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.o" "prog9.4 try catch/model/Complex.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-generated-files.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-own-target-headers.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-all-target-headers.hmap" -iquote "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-project-headers.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/include" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/DerivedSources/x86_64" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/DerivedSources" "-F/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release" -include "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch" -MMD -MT dependencies -MF "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.d" --serialize-diagnostics "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.dia" -c "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Complex.m" -o "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Complex.o"36"69F21FC5-05A6-4F0F-8865-AF6BD52F0884-
+
+CCompileC "build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/Fraction.o" "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/model/Fraction.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC "build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.o" "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356114533.501839
+e356114533.607583
+r0
+xCompileC
+xbuild/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.o
+x/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m:18:10: error: no visible @interface for 'Fraction' declares the selector 'noSuchMethod'
+o        [f noSuchMethod];
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m64b28065e039b541^04749b65e039b541^-230"/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m:18:10: error: no visible @interface for 'Fraction' declares the selector 'noSuchMethod'        [f noSuchMethod];         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@73"No visible @interface for 'Fraction' declares the selector 'noSuchMethod'-356114533#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@109"file://localhost/Users/nickkaye/XCodeProjects/learning-ios/prog9.4%20try%20catch/prog9.4%20try%20catch/main.m0000000000000000^17#9#17#9#320#0#9"ARC Issue--0#0#0#-19%DVTDocumentLocation4@109"file://localhost/Users/nickkaye/XCodeProjects/learning-ios/prog9.4%20try%20catch/prog9.4%20try%20catch/main.m0000000000000000^3334"CompileC "build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.o" "prog9.4 try catch/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-generated-files.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-own-target-headers.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-all-target-headers.hmap" -iquote "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-project-headers.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/include" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/DerivedSources/x86_64" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/DerivedSources" "-F/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release" -include "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch" -MMD -MT dependencies -MF "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.dia" -c "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/main.m" -o "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/Objects-normal/x86_64/main.o"36"A32D60D1-DC19-453D-9F0C-C0A1F529EF10-
+
+CGenerateDSYMFile "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/prog9.4 try catch.dSYM" "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/prog9.4 try catch"
+r0
+
+CLd "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/prog9.4 try catch" normal x86_64
+r0
+
+CProcessPCH "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.pth" "prog9.4 try catch/prog9.4 try catch-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s356114531.510688
+e356114533.494805
+r1
+xProcessPCH
+x/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.pth
+xprog9.4 try catch/prog9.4 try catch-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile prog9.4 try catch/prog9.4 try catch-Prefix.pch51118363e039b541^3fa97e65e039b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/nickkaye/XCodeProjects/learning-ios/prog9.4%20try%20catch/prog9.4%20try%20catch/prog9.4%20try%20catch-Prefix.pch0000000000000000^3372"ProcessPCH "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.pth" "prog9.4 try catch/prog9.4 try catch-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-generated-files.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-own-target-headers.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-all-target-headers.hmap" -iquote "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/prog9.4 try catch-project-headers.hmap" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release/include" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/DerivedSources/x86_64" "-I/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/prog9.4 try catch.build/Release/prog9.4 try catch.build/DerivedSources" "-F/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/build/Release" --serialize-diagnostics "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.dia" -c "/Users/nickkaye/XCodeProjects/learning-ios/prog9.4 try catch/prog9.4 try catch/prog9.4 try catch-Prefix.pch" -o "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/qd/tgs6p9551csc6qtvzm474nwh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/prog9.4 try catch-Prefix-alfwbqpmmtcnvzazczznwkmeulur/prog9.4 try catch-Prefix.pch.d"36"9E711C7C-67F7-41C0-859F-21BF483D728F-
+
