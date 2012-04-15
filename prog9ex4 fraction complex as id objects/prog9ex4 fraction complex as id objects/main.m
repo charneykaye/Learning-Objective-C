@@ -6,16 +6,21 @@
 //  Copyright (c) 2012 Outright Mental. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "Complex.h"
 #import "Fraction.h"
+
+void logResult(id result)
+{
+    printf( "result is a member of the %s class\n\n",
+        [[[result class] description] UTF8String]
+        );
+}
 
 int main(int argc, const char * argv[])
 {
     
     @autoreleasepool {
-        // for result
-        id result;
-        
         // setup fractions
         Fraction * fracOne = [Fraction new];
         Fraction * fracTwo = [Fraction new];
@@ -29,12 +34,12 @@ int main(int argc, const char * argv[])
         [compTwo setReal:-5.0 andImaginary:3.2];
         
         // run it
-        result = [fracOne add: fracTwo];
-        
-        result = [fracOne multiply: fracTwo];
-        result = [fracOne subtract: fracTwo];
-        result = [fracOne divide: fracTwo];
-        result = [compOne add: compTwo];
+        logResult([fracOne add: fracTwo]);
+        logResult([fracOne multiply: fracTwo]);
+        logResult([fracOne subtract: fracTwo]);
+        logResult([fracOne divide: fracTwo]);
+        logResult([compOne add: compTwo]);
+        logResult([compOne add: fracTwo]);
                 
         //        [compResult reduce];  // ch. 9 ex. 1
         

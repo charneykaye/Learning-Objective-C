@@ -37,6 +37,8 @@ static int count;
 
 -(id) add: (id) f
 {
+    // not a member of Complex class = fail
+    if (![f isMemberOfClass:[Complex class]]) return NULL;
     // perform function
     Complex * result = [Complex new];    
     result.real = real + [f real];
@@ -47,7 +49,7 @@ static int count;
     [f print];
     printf(" = ");
     [result print];
-    printf("\n\n");
+    printf("\n");
     // output
     return result;
 }

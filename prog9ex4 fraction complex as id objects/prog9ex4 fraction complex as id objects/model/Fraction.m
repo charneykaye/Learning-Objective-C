@@ -40,6 +40,8 @@ static int count;
 
 -(id) add: (id) f
 {    
+    // not a member of Fraction class = fail
+    if (![f isMemberOfClass:[Fraction class]]) return NULL;
     // perform function
     Fraction * result = [Fraction new];
     [result setNumerator: numerator * [f numerator] + denominator * [f denominator]];
@@ -51,13 +53,15 @@ static int count;
     [f print];
     printf(" = ");
     [result print];
-    printf("\n\n");
+    printf("\n");
     // output
     return result;
 }
 
 -(id) subtract: (id) f
 {    
+    // not a member of Fraction class = fail
+    if (![f isMemberOfClass:[Fraction class]]) return NULL;
     // perform function
     Fraction * result = [Fraction new];
     [result setNumerator: numerator * [f denominator] - denominator * [f numerator]];
@@ -69,13 +73,15 @@ static int count;
     [f print];
     printf(" = ");
     [result print];
-    printf("\n\n");
+    printf("\n");
     // output
     return result;
 }
 
 -(id) multiply: (id) f
 {    
+    // not a member of Fraction class = fail
+    if (![f isMemberOfClass:[Fraction class]]) return NULL;
     // perform function
     Fraction * result = [Fraction new];
     [result setNumerator: numerator * [f numerator]];
@@ -87,13 +93,15 @@ static int count;
     [f print];
     printf(" = ");
     [result print];
-    printf("\n\n");
+    printf("\n");
     // output
     return result;
 }
 
 -(id) divide: (id) f
 {    
+    // not a member of Fraction class = fail
+    if (![f isMemberOfClass:[Fraction class]]) return NULL;
     // perform function
     Fraction * result = [Fraction new];
     [result setNumerator: numerator * [f denominator]];
@@ -105,7 +113,7 @@ static int count;
     [f print];
     printf(" = ");
     [result print];
-    printf("\n\n");
+    printf("\n");
     // output
     return result;
 }
