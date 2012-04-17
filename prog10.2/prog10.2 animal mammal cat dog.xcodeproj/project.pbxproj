@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877E9268153CE36200075093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877E9267153CE36200075093 /* Foundation.framework */; };
+		877E926B153CE36200075093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E926A153CE36200075093 /* main.m */; };
+		877E926F153CE36200075093 /* prog10_0.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 877E926E153CE36200075093 /* prog10_0.1 */; };
+		877E9277153CE38D00075093 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E9276153CE38C00075093 /* Animal.m */; };
+		877E9283153CE42E00075093 /* Mammal.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E9282153CE42E00075093 /* Mammal.m */; };
+		877E9286153CE44500075093 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E9285153CE44500075093 /* Dog.m */; };
+		877E9289153CE44F00075093 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E9288153CE44F00075093 /* Cat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		877E9261153CE36200075093 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				877E926F153CE36200075093 /* prog10_0.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		877E9263153CE36200075093 /* prog10.2 animal mammal cat dog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prog10.2 animal mammal cat dog"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877E9267153CE36200075093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		877E926A153CE36200075093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877E926D153CE36200075093 /* prog10.2 animal mammal cat dog-Prefix.pch */ = {isa = PBXFileReference; path = "prog10.2 animal mammal cat dog-Prefix.pch"; sourceTree = "<group>"; };
+		877E926E153CE36200075093 /* prog10_0.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = prog10_0.1; sourceTree = "<group>"; };
+		877E9275153CE38C00075093 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		877E9276153CE38C00075093 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		877E9281153CE42E00075093 /* Mammal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mammal.h; sourceTree = "<group>"; };
+		877E9282153CE42E00075093 /* Mammal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mammal.m; sourceTree = "<group>"; };
+		877E9284153CE44500075093 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		877E9285153CE44500075093 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		877E9287153CE44F00075093 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		877E9288153CE44F00075093 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877E9260153CE36200075093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877E9268153CE36200075093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877E9258153CE36200075093 = {
+			isa = PBXGroup;
+			children = (
+				877E9269153CE36200075093 /* prog10.0 */,
+				877E9266153CE36200075093 /* Frameworks */,
+				877E9264153CE36200075093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877E9264153CE36200075093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877E9263153CE36200075093 /* prog10.2 animal mammal cat dog */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877E9266153CE36200075093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877E9267153CE36200075093 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877E9269153CE36200075093 /* prog10.0 */ = {
+			isa = PBXGroup;
+			children = (
+				877E9281153CE42E00075093 /* Mammal.h */,
+				877E9282153CE42E00075093 /* Mammal.m */,
+				877E926A153CE36200075093 /* main.m */,
+				877E9275153CE38C00075093 /* Animal.h */,
+				877E9276153CE38C00075093 /* Animal.m */,
+				877E926E153CE36200075093 /* prog10_0.1 */,
+				877E926C153CE36200075093 /* Supporting Files */,
+				877E9284153CE44500075093 /* Dog.h */,
+				877E9285153CE44500075093 /* Dog.m */,
+				877E9287153CE44F00075093 /* Cat.h */,
+				877E9288153CE44F00075093 /* Cat.m */,
+			);
+			path = prog10.0;
+			sourceTree = "<group>";
+		};
+		877E926C153CE36200075093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877E926D153CE36200075093 /* prog10.2 animal mammal cat dog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877E9262153CE36200075093 /* prog10.2 animal mammal cat dog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877E9272153CE36200075093 /* Build configuration list for PBXNativeTarget "prog10.2 animal mammal cat dog" */;
+			buildPhases = (
+				877E925F153CE36200075093 /* Sources */,
+				877E9260153CE36200075093 /* Frameworks */,
+				877E9261153CE36200075093 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prog10.2 animal mammal cat dog";
+			productName = prog10.0;
+			productReference = 877E9263153CE36200075093 /* prog10.2 animal mammal cat dog */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877E925A153CE36200075093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Outright Mental";
+			};
+			buildConfigurationList = 877E925D153CE36200075093 /* Build configuration list for PBXProject "prog10.2 animal mammal cat dog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 877E9258153CE36200075093;
+			productRefGroup = 877E9264153CE36200075093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877E9262153CE36200075093 /* prog10.2 animal mammal cat dog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877E925F153CE36200075093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877E926B153CE36200075093 /* main.m in Sources */,
+				877E9277153CE38D00075093 /* Animal.m in Sources */,
+				877E9283153CE42E00075093 /* Mammal.m in Sources */,
+				877E9286153CE44500075093 /* Dog.m in Sources */,
+				877E9289153CE44F00075093 /* Cat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		877E9270153CE36200075093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		877E9271153CE36200075093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		877E9273153CE36200075093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog10.0/prog10.2 animal mammal cat dog-Prefix.pch";
+				PRODUCT_NAME = "prog10.2 animal mammal cat dog";
+			};
+			name = Debug;
+		};
+		877E9274153CE36200075093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog10.0/prog10.2 animal mammal cat dog-Prefix.pch";
+				PRODUCT_NAME = "prog10.2 animal mammal cat dog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877E925D153CE36200075093 /* Build configuration list for PBXProject "prog10.2 animal mammal cat dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877E9270153CE36200075093 /* Debug */,
+				877E9271153CE36200075093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877E9272153CE36200075093 /* Build configuration list for PBXNativeTarget "prog10.2 animal mammal cat dog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877E9273153CE36200075093 /* Debug */,
+				877E9274153CE36200075093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877E925A153CE36200075093 /* Project object */;
+}
