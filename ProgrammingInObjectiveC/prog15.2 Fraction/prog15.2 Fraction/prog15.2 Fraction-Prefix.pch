@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'prog15.2 Fraction' target in the 'prog15.2 Fraction' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
