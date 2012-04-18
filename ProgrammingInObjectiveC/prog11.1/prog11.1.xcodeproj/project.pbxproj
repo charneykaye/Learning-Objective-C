@@ -12,7 +12,6 @@
 		877657D5153D44D800B5DD3D /* prog11_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 877657D4153D44D800B5DD3D /* prog11_1.1 */; };
 		877657E0153D452200B5DD3D /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 877657DD153D452200B5DD3D /* Complex.m */; };
 		877657E1153D452200B5DD3D /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 877657DF153D452200B5DD3D /* Fraction.m */; };
-		877657E4153D459200B5DD3D /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 877657E3153D459100B5DD3D /* Fraction+MathOps.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,8 +37,6 @@
 		877657DD153D452200B5DD3D /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
 		877657DE153D452200B5DD3D /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		877657DF153D452200B5DD3D /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
-		877657E2153D459100B5DD3D /* Fraction+MathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fraction+MathOps.h"; sourceTree = "<group>"; };
-		877657E3153D459100B5DD3D /* Fraction+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MathOps.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +102,6 @@
 				877657DD153D452200B5DD3D /* Complex.m */,
 				877657DE153D452200B5DD3D /* Fraction.h */,
 				877657DF153D452200B5DD3D /* Fraction.m */,
-				877657E2153D459100B5DD3D /* Fraction+MathOps.h */,
-				877657E3153D459100B5DD3D /* Fraction+MathOps.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -165,7 +160,6 @@
 				877657D1153D44D800B5DD3D /* main.m in Sources */,
 				877657E0153D452200B5DD3D /* Complex.m in Sources */,
 				877657E1153D452200B5DD3D /* Fraction.m in Sources */,
-				877657E4153D459200B5DD3D /* Fraction+MathOps.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +250,7 @@
 				877657DA153D44D800B5DD3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

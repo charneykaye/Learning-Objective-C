@@ -6,29 +6,39 @@
 //  Copyright (c) 2012 Outright Mental. All rights reserved.
 //
 
-#import "Fraction+MathOps.h"
+#import "Fraction.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        Fraction * fracOne = [Fraction new];
-        Fraction * fracTwo = [Fraction new];
-        Fraction * fracThree = [Fraction new];
-        Fraction * fracFour = [Fraction new];
-        Fraction * fracFive = [Fraction new];
+        // new max-size Fraction
+        Fraction * fracMax = [[Fraction alloc] initWithNumerator:100 andDenominator:100];
         
-        [fracOne scan];
-        [fracTwo scan];
-        [fracThree scan];
-        [fracFour scan];
-        [fracFive scan];
+        // new random fractions
+        Fraction * fracOne = [[Fraction alloc] initRandomWithMax:fracMax];
+        Fraction * fracTwo = [[Fraction alloc] initRandomWithMax:fracMax];
+        Fraction * fracThree = [[Fraction alloc] initRandomWithMax:fracMax];
+        Fraction * fracFour = [[Fraction alloc] initRandomWithMax:fracMax];
+        Fraction * fracFive = [[Fraction alloc] initRandomWithMax:fracMax];
         
+        // test fraction arithmetic methods
         [fracOne add: fracTwo];
         [fracOne mul: fracThree];
         [fracOne sub: fracFour];
         [fracOne div: fracFive];
+        [fracOne inv];
+        [fracThree inv];
+
+        // test fraction comparison methods
+        [fracOne isEqualTo:fracTwo];
+        [fracOne isEqualTo:fracThree];
+        [fracOne isEqualTo:fracOne];
+        [fracOne compare:fracTwo];
+        [fracOne compare:fracThree];
+        [fracOne compare:fracFour];
+        [fracOne compare:fracFive];
         
     }
     return 0;

@@ -10,21 +10,45 @@
 
 @interface Fraction : NSObject
 
-/**
- *  Setting
- */
+#pragma mark properties
 @property int numerator, denominator;
+
+#pragma mark initializer
+-(Fraction *) initWithNumerator: (int) n andDenominator: (int) d;
+-(Fraction *) initRandomWithMax: (Fraction *) m;
+
+#pragma mark setters
 -(void) setTo: (int) n over: (int) d;
 -(void) scan;
 
 #pragma mark reduction
 -(void) reduce;
--(int) gcdOfInt: (int) a andInt: (int) b;
++(int) gcdOfInt: (int) a andInt: (int) b;
 
-/**
- *  Output
- */
+#pragma mark copying
+-(Fraction *) clone;
+
+#pragma mark output
 -(double) convertToNum;
 -(void) print;
+
+@end
+
+@interface Fraction (MathOps)
+
+#pragma mark fraction arithmetic operations
+-(Fraction *) add: (Fraction *) f;
+-(Fraction *) sub: (Fraction *) f;
+-(Fraction *) mul: (Fraction *) f;
+-(Fraction *) div: (Fraction *) f;
+-(Fraction *) inv;
+
+@end
+
+@interface Fraction (Comparison)
+
+-(BOOL) isEqualTo: (Fraction *) f;
+-(BOOL) isLessThanOrEqualTo: (Fraction *) f
+-(int) compare: (Fraction *) f;
 
 @end
